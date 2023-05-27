@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class EndGame : MonoBehaviour
 {
-    //references
+    //Referenzen
     public PlayerMovement Movementscript;
     public Timer timecontroller;
     public GameObject WinText;
@@ -14,7 +14,7 @@ public class EndGame : MonoBehaviour
     public GameObject GameEndScreen;
     public Text TimeDisplay;
 
-    //parameter
+    //Parameter
     bool youwin;
     string maxtimeValue;
 
